@@ -1,0 +1,52 @@
+  Yahtzee.MainForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Yahtzee, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Yahtzee.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 _birler IsConst : Public, Static, HasDefault
+    Int32 _ikiler IsConst : Public, Static, HasDefault
+    Int32 _ucler IsConst : Public, Static, HasDefault
+    Int32 _dortler IsConst : Public, Static, HasDefault
+    Int32 _besler IsConst : Public, Static, HasDefault
+    Int32 _altilar IsConst : Public, Static, HasDefault
+    Int32 _araTop IsConst : Public, Static, HasDefault
+    Int32 _bonus IsConst : Public, Static, HasDefault
+    Int32 _3Turdes IsConst : Public, Static, HasDefault
+    Int32 _4Turdes IsConst : Public, Static, HasDefault
+    Int32 _doluEv IsConst : Public, Static, HasDefault
+    Int32 _darS IsConst : Public, Static, HasDefault
+    Int32 _genisS IsConst : Public, Static, HasDefault
+    Int32 _yahtzee IsConst : Public, Static, HasDefault
+    Int32 _sans IsConst : Public, Static, HasDefault
+    Int32 _toplam IsConst : Public, Static, HasDefault
+    Boolean ZarAt : Public, Static
+    Int32 zarAnim : Public, Static
+    Int32[] zarlar : Public, Static
+    Int32 iZarSay : Public, Static
+    Int32 Siradaki : Public, Static
+    Int32[,] Tablo : Public, Static
+    Int32[] a : Public, Static
+  Methods:
+    ButonlarDiz(): PrivateScope, Public, HideBySig
+    TurdesSay(Int32): PrivateScope, Public, HideBySig
+    ZarlarToplam(): PrivateScope, Public, HideBySig
+    EnCokBitisik(): PrivateScope, Public, HideBySig
+    DoluEv(): PrivateScope, Public, HideBySig
+    RakamTop(Int32): PrivateScope, Public, HideBySig
+    Yazdirilabilirler(): PrivateScope, Public, HideBySig
+    TabloYaz(): PrivateScope, Public, HideBySig
